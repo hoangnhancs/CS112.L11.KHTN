@@ -11,6 +11,10 @@ Members:
 
 Mỗi thư mục sẽ được đặt tên là "Section" + X tương ứng với mỗi buổi học.   
 Tất cả những file liên quan tới buổi học hôm đó (chẳng hạn như bài tập, report, tóm tắt, tài liệu ,....) đều được đặt trong thư mục của từng buổi học.
+
+# Project Euler
+<a href="https://projecteuler.net">exercise</a>  
+Dùng project Euler để luyện tập hàng ngày. Tất cả bài giải đều lưu trong thư mục Eulers 
 <details>
 <summary>Private Information</summary>
 <h1>WeCode</h1>
