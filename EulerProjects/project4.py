@@ -9,7 +9,7 @@ max = 0
 for i in range (990, 109, -11):
     for j in range (999, 99, -1):
         if str(i*j)==str(i*j)[::-1]:
-            if(max<i*j):
                 max=i*j
+                
 print(max)
 
