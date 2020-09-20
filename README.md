@@ -10,6 +10,7 @@ This repository is about doing team-working in CS112 course @UIT-VNU
 |18521348   |Lưu Hoàng Sơn      |18521348@gm.uit.edu.vn|Member  | -->
 <!--  -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 # N004's MEMBERS
