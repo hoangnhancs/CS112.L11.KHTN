@@ -1,18 +1,46 @@
 from bisect import *
-
 n = int(input())
 a, b, c, d = map(int,input().replace('/',' ').split())
 
-points = [map(int,input().split()) for _ in range(n)]
-rpoints = [(-a*x+b*y,-(-c*x+d*y)) for x,y in points]
-spoints = sorted([(x,y) for x,y in rpoints if x>0 and y>0], key=lambda x: (x[0], -x[1]))
+points = []
+for i in range(0,n):
+    x,y = map(int,input().split(' '))
+    points.append((x,y))
 
-f = []
-for x,y in spoints:
-    i = bisect_left(f,y)
-    if i == len(f):
-        f.append(y)
-    else:
-        f[i] = y
+points = [(c * x - d * y, b * y - a * x) for x, y in points]
+points = sorted((x,-y) for x,y in points if x > 0 and y > 0)
 
-print(len(f))
+# dãy con tăng 
+
+def LIS(A): 
+    l = []
+    for x,y in A:
+        v = bisect_left(l, -y)
+
+        if v == len(l):
+            l.append(-y)
+        else:
+            l[v] = -y
+
+    return len(l)
+
+ans = LIS(points)
+print(ans)
+
+# 15
+# 1/4 2/1
+# 3 1
+# 6 2
+# 9 3
+# 12 4
+# 15 5
+# 2 1
+# 4 2
+# 5 3
+# 7 4
+# 1 3
+# 3 4
+# 2 5
+# 4 5
+# 1 6
+# 6 6
