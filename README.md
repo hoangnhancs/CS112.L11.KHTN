@@ -22,7 +22,7 @@ This repository is about doing team-working in CS112 course @UIT-VNU
         </div>
         <br>
         <div style="width:20% ;margin:0px auto">
-            <h1>Lưu Hoàng Sơn<br>18521182 <br /> Member</h1>
+            <h1>Lưu Hoàng Sơn<br>18521348 <br /> Member</h1>
             <details>
                 <summary>Image</summary>
                 <img style="width:100%"
@@ -31,7 +31,7 @@ This repository is about doing team-working in CS112 course @UIT-VNU
         </div>
         <br>
         <div style="width:20%; margin:0px auto">
-            <h1>Đào Thị Thu Nga<br> 18521182 <br /> Member </h1>
+            <h1>Đào Thị Thu Nga<br> 18521135 <br /> Member </h1>
             <details>
                 <summary>Image</summary>
                 <img style="width:100%"
@@ -39,13 +39,11 @@ This repository is about doing team-working in CS112 course @UIT-VNU
             </details>
         </div>
     </div>
-
-<details>
-    <summary>For contact</summary>
-    <p>Thái Hoàng Nhân: 18521182@gm.uit.edu.vn or <a href="https://github.com/hoangnhancs">github</a> or <a href="https://www.facebook.com/profile.php?id=100027617961231">facebook</a></p>
-    <p>Lưu Hoàng Sơn: 18521182@gm.uit.edu.vn or <a href="https://github.com/sonlhcsuit">github</a> or <a href="https://www.facebook.com/sjIv3r">facebook</a></p>
-    <p>Đào Thị Thu Nga: 18521182@gm.uit.edu.vn or <a href="https://github.com/DAOTHITHUNGA">github</a> or <a href="https://www.facebook.com/vonguocmo03092000">facebook</a></p>
-</details>
+<hr>
+<p>For Contact</p>
+<p>Thái Hoàng Nhân: 18521182@gm.uit.edu.vn or <a href="https://github.com/hoangnhancs">github</a> or <a href="https://www.facebook.com/profile.php?id=100027617961231">facebook</a></p>
+<p>Lưu Hoàng Sơn: 18521348@gm.uit.edu.vn or <a href="https://github.com/sonlhcsuit">github</a> or <a href="https://www.facebook.com/sjIv3r">facebook</a></p>
+<p>Đào Thị Thu Nga: 18521135@gm.uit.edu.vn or <a href="https://github.com/DAOTHITHUNGA">github</a> or <a href="https://www.facebook.com/vonguocmo03092000">facebook</a></p>
 <!--  -->
 
 # Woring flow 
