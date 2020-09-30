@@ -11,7 +11,7 @@
 
 n, m = map(int, input().split())
 lines = []
-for i in range(0, n):
+for i in range(0, m):
     lines.append(input())
 
 # setup
