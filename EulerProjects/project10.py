@@ -1,17 +1,16 @@
-from random import randint
-loop_count = 5
-n = input()
-n = int(n)
-k = 0
-def check(n):
-    return not (n < 2 or
-                any(pow(randint(1, n - 1), n - 1, n) != 1
-                    for _ in range(loop_count)))
-        
-sum = 0
-for i in range (2, 2000001):
-    if check(i):
-        sum += i
-
-
+def check (n, arr_prime):
+  for i in arr_prime:
+    if n%i==0:
+      return False
+  return True
+arr_prime = [2]
+sum =2
+for i in range(3, 2000001):
+  if check(i, arr_prime)==True:
+    arr_prime.append(i)
+    sum+=i
 print(sum)
+
+#print(arr_prime)
+# #print(check(3,arr_prime))
+# print(check(9, arr_prime))
