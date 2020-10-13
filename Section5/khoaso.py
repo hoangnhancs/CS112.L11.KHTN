@@ -31,58 +31,6 @@
 # for _ in list_digit[::-1]:
 #     print(_,end="")
 
-#-------------------NEW_VERSION----------------
-# from sys import stdin, stdout
-# from collections import Counter
-
-# n = stdin.readline().strip()
-# count = Counter(n)
-# #print("Count number is: ",count)
-# tong = sum(map(int, n)) % 3
-# #print(tong)
-
-# # du = [[]] * 3
-# # du[1] = ['1', '4', '7']
-# # #print(du)
-# # du[2] = ['2', '5', '8']
-# # #print(du)
-# # du = [[x for x in d if x in count] for d in du]
-# du = [[]] * 3
-# for number in count:
-#     number = int(number)
-#     if number%3:
-#         du[number%3].add(str(number))
-
-# print("Mod number is: ",du)
-# #print("Mod is: ",tong)
-
-# if tong:
-#     d = sum(count[x] for x in du[tong])
-#     #print("Count number of digit has same mod is: ",d)
- 
-#     c = 1
-#     if not d:
-#         c = 2
-#         tong = 3 - tong
-#     # print('Mod become: ',tong)
-#     # print("Number digit delete is: ",c)
-#     # print("Numbers have mod {} in mod_number is: ".format(tong),du[tong])
-#     for x in du[tong]:
-#         t = min(c, count[x])
-#         c -= t
-#         count[x] -= t
-    
-
-        
-# #print(count)
-# #print(count.keys())
-# for x in sorted(count.keys(), reverse=True):
-#     stdout.write(x * count[x])
-# print()
-
-# d=3
-# if d:
-#     print(d)
 
 #----------------------NEW_VERSION----------------------
 from collections import Counter
