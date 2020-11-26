@@ -1,18 +1,26 @@
-genA = input().strip().upper()
-genB = input().strip().upper()
-# genA = 'ABBACAB'
-# genB = 'BCABB'
-temp = set()
-# gen =None
-# gen = genA if len(genA) > len(genB) else genB
-count = 0
-for i in range(len(genB)-1):
-    pair = genB[i:i+2]
-    temp.add(pair)
-# print(temp)
-for i in range(len(genA)-1):
-    pair = genA[i:i + 2]
-    # print(pair)
-    if pair in temp:
-        count+=1
-print(count)
+# from sys import stdin,stdout
+import numpy as np 
+# input_s = stdin.readline()
+# input_s = input_s.strip()
+# n =int(stdin.readline())
+# value = {}
+# for i in range(97,123):
+#     value[chr(i)]= 1<<i-97
+# # print(value)
+# sums = [0 for _ in range(len(input_s)+1)]
+#
+# for i in enumerate(input_s):
+#     sums[i+1] = sums[i] + value[input_s[i]]
+# # print(sums)
+#
+# for i in range(n):
+#     a,b,c,d = map(int,stdin.readline().strip().split(' '))
+#     # print(sums[b], sums[a - 1])
+#     # print(sums[d], sums[c - 1])
+#     if sums[b]-sums[a-1]==sums[d]-sums[c-1] :
+#         stdout.write('YES\n')
+#     else:
+#         stdout.write('NO\n')
+
+a = np.array([0,1,0,1])
+print(np.count_nonzero(a))
