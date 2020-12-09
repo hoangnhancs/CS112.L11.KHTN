@@ -1,6 +1,3 @@
-#import time
-a = input()
-
 def solve(a):
     int_a = int(a)
     list_a = list(a)
