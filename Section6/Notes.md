@@ -1,0 +1,5 @@
+- Đưa ra phương án làm  2 bài tập tuần này là "mức độ giống nhau" và "Địa lan"
+- Nhóm thuyết trình xin dời lịch thuyết trình
+- Làm 2 bài tập tuần này tại lớp
+- Thảo luận 2 bài tập "mức độ giống nhau" và "Địa lan"
+- Viết report cho buổi học 5
