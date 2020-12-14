@@ -1,3 +1,5 @@
+### 1. Hoạt động với lớp
+
 - Đưa ra phương án làm  2 bài tập tuần này là  "khóa số" và "Cyclick Isomorphism"
 - Nghe nhóm bạn thuyết trình về chủ đề **Phân tích thuật toán**
 - Đặt câu hỏi cho nhóm 
@@ -22,7 +24,9 @@
 	- Big-O : cạnh trên
 	- Big-Omega: cạnh dưới
 	- Big-Theta:  gần đúng tiệm cạnh độ phức tạp thuật toán
-	
+
+### 2. Hoạt động với nhóm 
+
 - Teamwork tìm câu hỏi cho nội dung thuyết trình
 - Thảo luận 2 bài tập "khóa số" và "Cyclick Isomorphism"
 - Viết report cho buổi học 5

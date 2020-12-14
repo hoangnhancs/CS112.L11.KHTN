@@ -1,4 +1,4 @@
-# Tóm tắt buổi học 1 (10-09-2020)
+### Tóm tắt buổi học 1
 
 1. Giới thiệu về COMPUTATIONAL THINKING, phân tích các step sử dụng trong COMPUTATIONAL THINKING , từ đó tạo ra hướng đi tư duy giải quyết một bài toán thực tế. 
 
