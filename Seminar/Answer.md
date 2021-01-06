@@ -17,7 +17,7 @@ các kỹ thuật dựa trên kinh nghiệm để giải quyết vấn đề, h�
 
 5.Khía cạnh gì của bài toán thì có thể dùng backtracking 
 
-Thông thường backtracking sẽ sử dụng khi bài toán có yêu cầu ràng buộc
+Thông thường backtracking sẽ sử dụng khi bài toán có yêu cầu ràng buộc.
 
 6.Trong trường hợp nào thì thuật toán bt là tốt nhất?
 
