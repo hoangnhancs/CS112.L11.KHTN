@@ -2,7 +2,8 @@
 
 Greedy algorithm : Theo khái niệm greedy là thuật toán giải quyết một bài toán theo kiểu metaheuristic để tìm kiếm lựa chọn tối ưu địa phương ở mỗi bước đi với hy vọng tìm được tối ưu toàn cục.
 
-Backtracking :  Một kĩ thuật thiết kế giải thuật dựa trên đệ quy. Ý tưởng của quay lui là tìm lời giải từng bước, mỗi bước chọn một trong số các lựa chọn khả dĩ và đệ quy
+Backtracking :  Một kĩ thuật thiết kế giải thuật dựa trên đệ quy. Ý tưởng của quay lui là tìm lời giải từng bước, mỗi bước chọn một trong số các lựa chọn khả dĩ và đệ quy.
+
 2.Tại sao trong ví dụ Knight không thể hiện backtracking ?
 
 Trong ví dụ của bài báo cáo , video thể hiện quá trình giải bài Knight chạy nhanh nên khó để ý được lúc sử dụng kĩ thuật Backtracking .Vấn đề này đã được nói rõ ở trên lớp.
@@ -21,7 +22,7 @@ Thông thường backtracking sẽ sử dụng khi bài toán có yêu cầu rà
 
 6.Trong trường hợp nào thì thuật toán bt là tốt nhất?
 
-Như câu 4
+Như câu 4.
 
 7. Phân biệt node promising và non promising?
 
@@ -35,12 +36,12 @@ Backtracking không phải là thuật toán mà là một tư tưởng thiết 
 
 9.Ứng dụng thực tế dùng btk?
 
-Lập trình game , giải các bài toán liên quan tới bản đồ ( tô màu đồ thị, tìm đường đi ngắn nhất ,...)
+Lập trình game , giải các bài toán liên quan tới bản đồ ( tô màu đồ thị, tìm đường đi ngắn nhất ,...).
 
 10.Làm sao ước lượng độ phức tạp của btk?
 
-Tùy thuộc vào chiều cao của cây và quá trình tìm ra ứng viên phù hợp
+Tùy thuộc vào chiều cao của cây và quá trình tìm ra ứng viên phù hợp.
 
 11.Có thể dùng thuật toán nào thay thế cho bài Knight Tour?
 
-Greedy tree 
+Greedy tree.
